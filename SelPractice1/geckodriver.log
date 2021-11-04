@@ -1,0 +1,60 @@
+1634567641741	geckodriver	INFO	Listening on 127.0.0.1:55913
+1634567644814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55914" "-no-remote" "-profile" "C:\\Users\\anita\\AppData\\Local\\Temp\\rust_mozprofileEM7n3q"
+1634567645527	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\anita\\AppData\\Local\\Temp\\rust_mozprofileEM7n3q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55914/devtools/browser/75f89ae5-ffb2-43a5-b69d-cc6ec68acdbc
+1634567649433	Marionette	INFO	Listening on port 55919
+1634567649642	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634658372154	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\anita\AppData\Local\Temp\rust_mozprofileEM7n3q\bookmarkbackups\bookmarks-2021-10-19_11_yseNRVAKMlyHdH8TET0+Dw==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\anita\AppData\Local\Temp\rust_mozprofileEM7n3q\bookmarkbackups\bookmarks-2021-10-29_11_yseNRVAKMlyHdH8TET0+Dw==.jsonlz4) because it does not exist
+1635682608662	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1635952529918	geckodriver	INFO	Listening on 127.0.0.1:57828
+1635952532984	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57829" "-no-remote" "-profile" "C:\\Users\\anita\\AppData\\Local\\Temp\\rust_mozprofile8YPzKY"
+1635952536521	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\anita\\AppData\\Local\\Temp\\rust_mozprofile8YPzKY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57829/devtools/browser/4e37e772-9117-4a32-8e52-cc9b273b94e0
+1635952548342	Marionette	INFO	Listening on port 57836
+1635952548592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/k0WdL_18o0JQ1tSTirwhWAKlI_j4jAibtndxAZll28w.js line 1 > eval line 2936 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1635952910706	Marionette	INFO	Stopped listening on port 57836
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ C:\\Users\\anita\\AppData\\Local\\Temp\\rust_mozprofile9L97Tv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58020/devtools/browser/b8834825-901c-4f78-8856-cee648675491
+1635952633298	Marionette	INFO	Listening on port 58026
+1635952633704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/k0WdL_18o0JQ1tSTirwhWAKlI_j4jAibtndxAZll28w.js line 1 > eval line 6564 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1635952908808	Marionette	INFO	Stopped listening on port 58026
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Agent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://secure.yatra.com/8SLpXVLfsA/SPudWPr4/xW/iNwY8fk01SbE/IVIdI3dzAQ/NGAub/W8nPRQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1635952912867	Marionette	INFO	Stopped listening on port 58189
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ C:\\Users\\anita\\AppData\\Local\\Temp\\rust_mozprofileSdAEXk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58291/devtools/browser/47e701ec-255c-4e52-88e6-8feded230505
+1635952738128	Marionette	INFO	Listening on port 58298
+1635952738194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://secure.yatra.com/8SLpXVLfsA/SPudWPr4/xW/iNwY8fk01SbE/IVIdI3dzAQ/NGAub/W8nPRQB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1635952915028	Marionette	INFO	Stopped listening on port 58298
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

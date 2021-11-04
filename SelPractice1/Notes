@@ -1,0 +1,69 @@
+CSS selectors
+tagName[AttributeName='AttributeValue]
+
+Selecting using IDs
+tagname#idname
+
+Selecting using Classes
+tagname.classname
+
+NB: The basic syntax can be used in both instances
+In cases where a lot of elements have the same class, a combination of attributes have to be used.
+
+tagName.classValue[AttributeName='AttributeValue']
+tagName#idValue[AttributeName='AttributeValue']
+or for multiple web elements
+tagName#idValue[AttributeName='AttributeValue'][AttributeName='AttributeValue']
+
+CSS selector - sub-string
+useful in selecting dynamic elements on a web page
+3 important signs are ^(for prefix of text), $(suffix of text), and *(sub-string of the text)
+syntax: input[name^='country_c'], input[name$='y_client'], input[name*='try_cl']
+
+
+Finding Child or Subchild Elements                      child element
+Syntax for direct child using child combinator: tagName#idValue[AttributeName='AttributeValue']>tagName#idValue[AttributeName='AttributeValue']
+Syntax for descendant combinator: tagName#idValue[AttributeName='AttributeValue'] tagName#idValue[AttributeName='AttributeValue']
+NB: a space between two elements indicates subchild selector(Using the > sign will select only direct
+children and not sub children under the direct children. Using the space combinator selects both children
+and sub children.
+
+
+Finding the next sibling
++ sign is the combinator
+
+First, last and nth child
+Syntax  parent element>:first-child
+parent element>:last-child
+parent element>:nth-child(4)
+parent element>:nth-last-child (it selects from the bottom)
+
+first-of-type , last-of-type and nth-of-type
+
+
+
+XPath(Xml path language)
+xpath=//tagname[@attribute='value']
+
+types of xpath
+absolute xpath starts with single forward slash /
+relative xpath starts with double forward slashes //
+
+Xpath function 'starts-with'
+//tagname[starts-with(@attribute,'value')]  NB: use the static value of the attribute
+
+Xpath function 'contains'
+//tagname[contains(@attribute,'value')]
+
+Xpath function 'text'
+//tagname[text()='Actual text']
+
+'and' and 'or'
+//tagname[@attribute='value' or @attribute='value']
+//tagname[@attribute='value' and @attribute='value']
+
+Xpath Axes methods(child, parent, self)
+//tagname[@attribute='value']//child::tagname
+//tagname[@attribute='value']//parent::tagname
+
+descendant and descendant-or-self
